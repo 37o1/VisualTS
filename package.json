@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/37o1/VisualTS#readme",
   "dependencies": {
-    "@types/node": "^22.10.7"
+    "@types/node": "^22.10.7",
+    "socket.io": "^4.8.1"
   }
 }

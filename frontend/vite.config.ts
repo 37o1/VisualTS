@@ -5,5 +5,12 @@ export default defineConfig({
 	server: {
 		port: 3770,
 		strictPort: true,
+		proxy: {
+			"/socket.io": {
+				target: "http://localhost:3775/",
+				ws: true,
+				changeOrigin: true,
+			}
+		}
 	},
 });

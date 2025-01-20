@@ -1,0 +1,20 @@
+{
+  "name": "visualts",
+  "version": "1.0.0",
+  "description": "A visual editor for TS projects.",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/37o1/VisualTS.git"
+  },
+  "keywords": [],
+  "author": "37o1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/37o1/VisualTS/issues"
+  },
+  "homepage": "https://github.com/37o1/VisualTS#readme"
+}
